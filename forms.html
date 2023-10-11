@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <h1>Give your Details</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter Your Name"><br>
+            <label for="sectionida">
+            <input type="radio" value="section-A" name="section" id="sectionida">Section-A
+        </label>
+            <label for="sectionidb"> 
+                <input type="radio" value="section-B" name="section" id="sectionidb">Section-B
+            </label>
+            <label for="sectionidc"> 
+                <input type="radio" value="section-C" name="section" id="sectionidc">Section-C
+            </label><br>
+            <label for="Eligibility">
+                 <input type="checkbox" value="I'm Above 18" name="age" id="Eligibility" > I'm Above 18
+                </label><br>
+<label for="Email Address">
+    <input type="email"  name="email" id="Email Address" placeholder="Email address">
+</label><br>
+<label for="date of birth">
+    <input type="date" name="dateofbirth">Date of Birth 
+</label><br>
+<textarea name="explain" id="explain" placeholder="Your Intrests" cols="30" rows="10"></textarea><br>
+<h2>Select Course</h2>
+<select name="course" id="Course" > Select Your Course
+<option value="CSE">CSE</option>    
+<option value="ML">ML</option>
+<option value="AI">AI</option>
+</select>
+        </form>
+    </div>
+    
+</body>
+</html>
